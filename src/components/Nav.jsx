@@ -1,7 +1,7 @@
 export default function Nav() {
-    return (
-      <nav>
-        test
-      </nav>
-    );
-  }
+  return (
+    <nav>
+      <ul></ul>
+    </nav>
+  );
+}
