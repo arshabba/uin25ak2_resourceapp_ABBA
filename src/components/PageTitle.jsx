@@ -1,3 +1,6 @@
-export default function PageTitle() {
-  return <title>Tittel</title>;
+export default function PageTitle({title}) {
+  
+  const pageTitle = `${title} page`;
+
+  return <title>{pageTitle}</title>;
 }

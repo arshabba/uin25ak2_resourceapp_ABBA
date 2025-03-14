@@ -5,7 +5,7 @@ import Resources from "./components/Resources";
 
 function App() {
 
-  
+
 
   return (
       <Layout>
@@ -15,6 +15,7 @@ function App() {
             <Route path="/css" element={<Resources category={"css"}  />} />
             <Route path="/javascript" element={<Resources category={"javascript"}  />} />
             <Route path="/react" element={<Resources category={"react"} />} />
+            <Route path="/sanity" element={<Resources category={"sanity"} />} />
           </Routes>
       </Layout>
   );
