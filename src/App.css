@@ -4,5 +4,14 @@
   --morkeblaa: #2A324B;
   --lyseblaa: #58699D;
 
+  font-family: "Montserrat", serif;
+    box-sizing: border-box;
+    margin:0;
+    padding:10%;
+    background-color: var(--lysegraa);
 }
 
+body, html{
+  padding: 0;
+  margin: 0;
+}

@@ -1,3 +1,3 @@
 export default function PageTitle() {
-  return <title></title>;
+  return <title>Tittel</title>;
 }

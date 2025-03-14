@@ -1,8 +1,13 @@
-export default function Layout() {
+import "../styles/layout.scss"
+import Nav from "./Nav";
+import PageTitle from "./PageTitle"
+
+export default function Layout({ children }) {
     return (
-        <main>
-        
-        
-        </main>
+        <>
+        <PageTitle></PageTitle>
+        <Nav></Nav>
+        {children}
+        </>
     );
   }
